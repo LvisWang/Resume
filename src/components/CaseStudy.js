@@ -2,12 +2,14 @@ import React from 'react';
 import './styles.css';
 import LensCaseStudy from './LensCaseStudy';
 import EigenLayerCaseStudy from './EigenLayerCaseStudy';
-import EFAA from './EFAA'
-import Gnosis from './Gnosis'
-import Tron from './Tron'
-import More from './More'
+import EFAA from './EFAA';
+import Gnosis from './Gnosis';
+import Tron from './Tron';
+import More from './More';
 import ParaSwap from './ParaSwap';
-import { Link } from 'react-router-dom';
+import Render from './Render';
+import NFT from './NFT';
+import Collab from './Collab';
 
 const CaseStudy = () => {
     return (
@@ -27,6 +29,10 @@ const CaseStudy = () => {
             </div>
 
             <div style={{ marginLeft: -70, marginTop: '-40px' }}>
+                <Render /> 
+            </div>
+
+            <div style={{ marginLeft: -70, marginTop: '-40px' }}>
                 <Gnosis /> 
             </div>
 
@@ -36,6 +42,14 @@ const CaseStudy = () => {
 
             <div style={{ marginLeft: -70, marginTop: '-40px' }}>
                 <EigenLayerCaseStudy /> 
+            </div>
+
+            <div style={{ marginLeft: -70, marginTop: '-40px' }}>
+                <Collab /> 
+            </div>
+
+            <div style={{ marginLeft: -70, marginTop: '-40px' }}>
+                <NFT /> 
             </div>
 
             <div style={{ marginLeft: -70, marginTop: '-40px' }}>

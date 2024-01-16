@@ -4,7 +4,7 @@ import './styles.css';
 const EigenLayerCaseStudy = () => {
     return (
         <div className='divWithPadding'>
-            <h3> EigenLayer | <a href="https://dune.com/sixdegree/eigenlayer-lst-addition-contest" target="_blank" rel="noopener noreferrer" style={{color: '#004080',  textDecoration: 'underline' }} >Dashboards</a> | <a href="https://x.com/eigenlayer/status/1717966948204777732?s=20" target="_blank" rel="noopener noreferrer" style={{color: '#004080', textDecoration: 'underline' }}>Feedback</a>
+            <h3> EigenLayer | <a href="https://dune.com/sixdegree/eigenlayer-lst-addition-contest" target="_blank" rel="noopener noreferrer" style={{color: '#004080',  textDecoration: 'underline' }} >Dashboard</a> | <a href="https://x.com/eigenlayer/status/1717966948204777732?s=20" target="_blank" rel="noopener noreferrer" style={{color: '#004080', textDecoration: 'underline' }}>Feedback</a>
             </h3> 
 
             <div className="case-study-content" style={{ textAlign: 'left', letterSpacing: '0.5px' }}>
