@@ -1,0 +1,214 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    font-weight: 500;
+}
+
+.header-container {
+    background-color: rgb(255, 249, 206);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center !important;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    margin: 5px 0;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* styles.css */
+.education-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center; /* 让 .education-item 内容在竖直方向上居中 */
+}
+
+.school {
+    width: 60%; /* 调整宽度 */
+}
+
+.school p {
+    margin: 0;
+}
+
+.school strong {
+    font-weight: bold;
+}
+
+.degree {
+    color: #666;
+}
+
+.location {
+    font-weight: bold;
+    margin-top: 10px; /* 调整上方间距 */
+}
+
+.cus-hr {
+    border: 0; /* 移除默认边框 */
+    height: 2px; /* 设置分割线的高度 */
+    background-color: rgb(0, 0, 0); /* 设置分割线的颜色 */
+    margin-top: 1px; /* 调整上方间距，根据需要调整数值 */
+    margin-bottom: 15px; /* 调整下方间距，根据需要调整数值 */
+}
+
+.divWithPadding {
+    padding: 50px; /* 调整需要的水平和垂直间距 */
+    margin: 0 50px;
+}
+
+.experience-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 同时设置斜体和下划线 */
+.italic-underlined-text {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em; /* 调整左侧缩进距离 */
+  }
+
+li {
+    margin-bottom: 0.5em;
+  }
+  
+
+  .education-item ul {
+    word-wrap: break-word;
+  }
+  .education-item li {
+    white-space: nowrap;
+  }
+  
+  .education-item {
+    display: flex;
+    flex-direction: column; /* 修改为垂直方向排列 */
+    margin-top: 10px;
+}
+
+.school {
+    width: 100%; /* 占满父容器宽度 */
+}
+
+.school p {
+    margin: 0;
+}
+
+.school strong {
+    font-weight: bold;
+}
+
+.degree {
+    color: #666;
+}
+
+.location {
+    font-weight: bold;
+    margin-top: 10px; /* 调整上方间距 */
+}
+
+.divWithPadding {
+    padding: 20px; /* 调整需要的水平和垂直间距 */
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: column; /* 修改为垂直方向排列 */
+}
+
+.italic-underlined-text {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.education-item ul {
+    word-wrap: break-word;
+}
+
+.education-item li {
+    white-space: normal; /* 恢复正常换行行为 */
+}
+
+.case-study-content {
+    text-align: justify;
+}
+
+color {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c6700;
+    color: #333;
+    font-weight: 500;
+}
