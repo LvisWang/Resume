@@ -4,7 +4,7 @@ import './styles.css';
 const NFT = () => {
     return (
         <div className='divWithPadding'>
-            <h3> Nethermind | <a href="/pdf/AA.pdf" target="_blank" rel="noopener noreferrer" style={{color: '#004080',  textDecoration: 'underline' }} > ERC-6551 Report </a> | 
+            <h3> Nethermind | <a href="/pdf/ERC6551.pdf" target="_blank" rel="noopener noreferrer" style={{color: '#004080',  textDecoration: 'underline' }} > ERC-6551 Report </a> | 
             <a href="https://dune.com/sixdegree/erc6551" target="_blank" rel="noopener noreferrer" style={{color: '#004080',  textDecoration: 'underline' }} > Dashboard</a>
             </h3> 
 
