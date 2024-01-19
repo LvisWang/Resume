@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header-container">
             <img src="/images/avatar.png" alt="Avatar" className="avatar" />
             <div className="header-text">
-                <h1>Louis(Chenjie) Wang - Apply for onchain data analyst</h1>
+                <h1>Louis(Chenjie) Wang </h1>
                 <h3>
                     <a href="https://twitter.com/lviswang"> Twitter</a> |
                     <a href="https://t.me/LvisWang" target="_blank" rel="noopener noreferrer"> Telegram </a> | 
