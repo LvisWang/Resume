@@ -18,7 +18,6 @@ const App = () => {
             <Education />
             <Career />
             <Others/>
-            <Now />
         </div>
     );
 };

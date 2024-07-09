@@ -5,6 +5,21 @@ const Experience = () => {
         <div className='divWithPadding'>
             <h2>Experience</h2>
             <hr className='cus-hr'/>
+
+            <div className="education-item">
+                <div className="school">
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                        <p style={{ margin: '0', marginBottom: '10px' }}><strong><a href="https://thehemera.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#004080', fontSize: '1.2em' }}>Hemera</a></strong></p>
+                        <p className="location">2024.03 - now</p>
+                    </div>
+                    <p className="italic-underlined-text">Head of Research</p>
+                    <ul>
+                        <li>Developed a methodology to evaluate the quality of on-chain engagement for Linea. </li>
+                        <li>Conducted research on trending topics such as EIP-4844 and memecoins.</li>
+                    </ul>
+                </div>
+            </div>
+
             <div className="education-item">
                 <div className="school">
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>

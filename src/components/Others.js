@@ -5,7 +5,7 @@ const Others = () => {
     return (
         
         <div className='divWithPadding'>
-            <h2>Other Contribution</h2>
+            <h2>Open-source Contributions</h2>
             <hr className='cus-hr'/>
             <h3>
             <ul>
